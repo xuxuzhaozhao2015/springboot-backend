@@ -1,0 +1,12 @@
+POST http://localhost:8080/userinfo/insert
+Content-Type: application/x-www-form-urlencoded
+
+username=x
+
+###
+POST http://localhost:8080/userinfo/selectById
+Content-Type: application/x-www-form-urlencoded
+
+id=3
+
+###
